@@ -61,3 +61,14 @@ Il codice deve aprire quattro finestre (o aggiornare la stessa figura in sequenz
 - Usa `plt.figure(figsize=(8, 5))` prima di ogni grafico.
 - Per il grafico a barre, prova `plt.bar(categorie, valori, color='skyblue')`.
 - Per aggiungere una griglia, usa `plt.grid(axis='y', linestyle='--', alpha=0.5)`.
+
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+print("Linea semplice")
+xpoints = np.array([0, 6])
+ypoints = np.array([0, 250]
+
+plt.plot(xpoints, ypoints)
+plt.show()
